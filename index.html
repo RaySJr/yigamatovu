@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YIGA MATOVU MEAT & DAIRY PROCESSORS LIMITED</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add favicon using the logo -->
+    <link rel="icon" type="image/png" href="images/logo/ym logo.jpg.png">
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/logo/ym logo.jpg.png" alt="Yiga Matovu Logo" class="h-12 w-12 object-contain mr-4 rounded-full shadow" />
+                <h1 class="text-2xl font-bold text-gray-800">
+                    <span class="text-green-600">Yiga Matovu</span> <span class="text-gray-600">Meat & Dairy Processors Limited</span>
+                </h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link active-nav text-green-600 font-medium">Home</a>
+                <a href="#about" class="nav-link text-gray-600 hover:text-green-600 font-medium">About</a>
+                <a href="#services" class="nav-link text-gray-600 hover:text-green-600 font-medium">Services</a>
+                <a href="#products" class="nav-link text-gray-600 hover:text-green-600 font-medium">Products</a>
+                <a href="#testimonials" class="nav-link text-gray-600 hover:text-green-600 font-medium">Testimonials</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-green-600 font-medium">Contact</a>
+            </nav>
+            
+            <button id="mobile-menu-button" class="md:hidden text-gray-600">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
+            <div class="flex flex-col space-y-4">
+                <a href="#home" class="nav-link active-nav text-green-600 font-medium">Home</a>
+                <a href="#about" class="nav-link text-gray-600 hover:text-green-600 font-medium">About</a>
+                <a href="#services" class="nav-link text-gray-600 hover:text-green-600 font-medium">Services</a>
+                <a href="#products" class="nav-link text-gray-600 hover:text-green-600 font-medium">Products</a>
+                <a href="#testimonials" class="nav-link text-gray-600 hover:text-green-600 font-medium">Testimonials</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-green-600 font-medium">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero min-h-screen flex items-center justify-center text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Premium Livestock & Meat Products</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Specializing in chicken, sheep, beef, goats and pigs - from quality feeds to premium processed meats</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#products" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Our Products</a>
+                <a href="#contact" class="bg-transparent hover:bg-white hover:text-gray-900 border-2 border-white text-white font-bold py-3 px-6 rounded-lg transition duration-300">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Our Company</h2>
+                <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://vhost-ln-s01-cdn.hcwebsite.com/501466e0714d7f286b2c92f1170e2a8f/res/en/20220314/auto_1027.jpg?v=2OTgPArI" alt="Chickens" class="rounded-lg shadow-md w-full h-40 object-cover">
+                        <img src="https://tse2.mm.bing.net/th/id/OIP.ezJBJdifpyV6qTeaWi6pBgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Sheep" class="rounded-lg shadow-md w-full h-48 object-cover">
+                        <img src="https://www.monitor.co.ug/resource/image/1600796/landscape_ratio3x2/1620/1080/ce098037f1abcf66931ffa307adff445/fL/seeds04-pix.jpg" alt="Pigs" class="rounded-lg shadow-md w-full h-48 object-cover">
+                        <img src="https://omiaagribusinessdg.com/wp-content/uploads/2023/05/Goat-Farming.webp" alt="Goats" class="rounded-lg shadow-md w-full h-48 object-cover">
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Yiga Matovu Meat & Dairy Processors Limited</h3>
+                    <p class="text-gray-600 mb-4">Founded with a passion for quality livestock, we specialize in chicken, sheep, beef, goats and pigs - from feed production to premium meat processing.</p>
+                    <p class="text-gray-600 mb-6">Our vertically integrated approach ensures quality at every stage, from specialized feeds to humane farming and hygienic processing of all our meats.</p>
+                    
+                    <div class="grid grid-cols-2 gap-6 mt-8">
+                        <div class="flex items-center">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-leaf text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Sustainable Farming</h4>
+                                <p class="text-gray-600 text-sm">Eco-friendly practices</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-award text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Quality Certified</h4>
+                                <p class="text-gray-600 text-sm">Highest standards</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-heart text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Animal Welfare</h4>
+                                <p class="text-gray-600 text-sm">Ethical treatment</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-truck text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Nationwide Delivery</h4>
+                                <p class="text-gray-600 text-sm">Reliable distribution</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- Stats Section -->
+<section class="py-16 bg-green-700 text-white">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center justify-center items-center">
+            <div class="stat-item">
+                <div class="text-4xl font-bold mb-2">15+</div>
+                <div class="text-lg">Years Experience</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="text-4xl font-bold mb-2">4+</div>
+                <div class="text-lg">Products</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="text-4xl font-bold mb-2">1500+</div>
+                <div class="text-lg">Happy Clients</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
+                <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="bg-green-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i class="fas fa-wheat-awn text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Livestock Feed Production</h3>
+                    <p class="text-gray-600">Specialized feeds for chickens, sheep, goats, pigs and cattle. Scientifically formulated for optimal health and growth of each livestock type.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="bg-green-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i class="fas fa-cow text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Livestock Farming</h3>
+                    <p class="text-gray-600">Expert rearing of chickens, sheep, goats, pigs and cattle. We implement best breeding, health and sustainable farming practices for each species.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <div class="bg-green-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i class="fas fa-bacon text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Meat Processing</h3>
+                    <p class="text-gray-600">Premium processing of chicken, beef, goat, sheep and pork products. From slaughter to packaging with strict hygiene standards for all our meats.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Products</h2>
+            <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product 1 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/products/chicken.jpg" alt="Chicken" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Premium Chicken</h3>
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Bestseller</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Naturally raised fresh broilers. Fresh from our farms to your home.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-green-600 font-bold">From UGX 15,000/ Kg</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/products/pork.jpg" alt="Pork" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Premium Pork</h3>
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Popular</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">High-quality pork. Naturally grown pigs from our farms fresh to your homes and outlets.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-green-600 font-bold">From UGX 13,500/ Kg</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/products/spent-grain.jpg" alt="Spent Grain" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Brewers Spent Grain</h3>
+                        <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">Popular</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Spent Grain is one of the best feeds for Cows, Pigs, Sheep, and Goats. It helps with their nutrition and growth. </p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-green-600 font-bold">From UGX 135,000/Tonne</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                <div class="h-48 overflow-hidden">
+                    <img src="images/products/spent-yeast.jpg" alt="Spent Yeast" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Brewers Spent Yeast</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Brewers Spent Yeast is another animal feed in liquid. It boosts immunity and has multiple benefits to the animals.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-green-600 font-bold">From UGX 5000/ 20 Litres</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Consult for more products</button>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What Our Clients Say</h2>
+                <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Yiga Matovu's Spent Grain and Yeast have transformed our farm. Our pigs' weight and immunity have increased by 30% since we switched to their products."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Denis K.</h4>
+                            <p class="text-gray-600 text-sm">Pig Farmer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"The quality of their chicken and pork products is exceptional. As a restaurant owner, consistency is key, and Yiga Matovu never disappoints. Our customers love the taste and tenderness."</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">James M.</h4>
+                            <p class="text-gray-600 text-sm">Restaurant Owner</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Their farming consultancy services helped us set up a modern dairy farm. The technical support and follow-up have been outstanding. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-800">Grace N.</h4>
+                            <p class="text-gray-600 text-sm">Dairy Farmer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- End of Testimonials Section -->
+
+    <!-- Gallery Section: People at Work -->
+    <section id="gallery" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Team at Work</h2>
+                <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">See our dedicated team in action, ensuring quality and care at every stage of production.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="images/gallery/team1.jpg" alt="Team Member 1" class="w-full h-64 object-cover">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="images/gallery/team2.jpg" alt="Team Member 2" class="w-full h-64 object-cover">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="images/gallery/team3.jpg" alt="Team Member 3" class="w-full h-64 object-cover">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="images/gallery/team4.jpg" alt="Team Member 4" class="w-full h-64 object-cover">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="images/gallery/team5.jpg" alt="Team Member 5" class="w-full h-64 object-cover">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="images/gallery/team6.jpg" alt="Team Member 6" class="w-full h-64 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
+                <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Get In Touch</h3>
+                    
+                    <div class="mb-8">
+                        <div class="flex items-start mb-6">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Address</h4>
+                                <p class="text-gray-600">31595 Luzira Central Zone - Kampala, Uganda</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Phone</h4>
+                                <p class="text-gray-600">+256 772 459012</p>
+                                <p class="text-gray-600">+256 708 847768</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                                <p class="text-gray-600">yiga_matovu@yahoo.com</p>
+                                <p class="text-gray-600">info@yigamatovu.com</p>
+                                <p class="text-gray-600">sales@yigamatovu.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h4 class="font-bold text-gray-800 mb-4">Business Hours</h4>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-600">Monday - Friday</span>
+                            <span class="text-gray-800 font-medium">8:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">Saturday</span>
+                            <span class="text-gray-800 font-medium">8:00 AM - 5:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <form class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
+                        
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <select id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
+                                <option value="">Select a subject</option>
+                                <option value="products">Product Inquiry</option>
+                                <option value="farming">Farming Services</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> <!-- End of Contact Section -->
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="images/logo/ym logo.jpg.png" alt="Yiga Matovu Logo" class="h-12 w-12 object-contain mr-3 rounded-full shadow" />
+                        <h3 class="text-2xl font-bold">
+                            <span class="text-green-500">Yiga Matovu</span> <span class="text-white">Meat & Dairy</span>
+                        </h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">Specialists in chicken, sheep, beef, goats and pigs - from feed to farm to finished products.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-green-500 transition duration-300"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-green-500 transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-green-500 transition duration-300"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-green-500 transition duration-300"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-green-500 transition duration-300">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-green-500 transition duration-300">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-green-500 transition duration-300">Services</a></li>
+                        <li><a href="#products" class="text-gray-400 hover:text-green-500 transition duration-300">Products</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-green-500 transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">Animal Feeds</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">Beef Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">Pork Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">Dairy Products</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-green-500 transition duration-300">Processed Meats</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2 text-green-500"></i>
+                            <span>31595 Luzira Central Zone - Kampala, Uganda</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2 text-green-500"></i>
+                            <span>+256 772 459012</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-green-500"></i>
+                            <span>info@yigamatovu.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Yiga Matovu Meat & Dairy Processors Limited. All Rights Reserved.</p>
+                <p> Designed & Serviced by RSJ Developers </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-green-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('#mobile-menu .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Animated counter for stats
+        const animateCounters = () => {
+            const yearsCount = document.getElementById('years-count');
+            const productsCount = document.getElementById('products-count');
+            const clientsCount = document.getElementById('clients-count');
+            const farmsCount = document.getElementById('farms-count');
+            
+            const targetYears = 15+;
+            const targetProducts = 4+;
+            const targetClients = 1200;
+            
+            let currentYears = 0;
+            let currentProducts = 0;
+            let currentClients = 0;
+            let currentFarms = 0;
+            
+            const yearsInterval = setInterval(() => {
+                currentYears += 1;
+                yearsCount.textContent = currentYears;
+                
+                if (currentYears >= targetYears) {
+                    clearInterval(yearsInterval);
+                }
+            }, 80);
+            
+            const productsInterval = setInterval(() => {
+                currentProducts += 2;
+                productsCount.textContent = currentProducts;
+                
+                if (currentProducts >= targetProducts) {
+                    clearInterval(productsInterval);
+                }
+            }, 50);
+            
+            const clientsInterval = setInterval(() => {
+                currentClients += 20;
+                clientsCount.textContent = currentClients;
+                
+                if (currentClients >= targetClients) {
+                    clearInterval(clientsInterval);
+                }
+            }, 5);
+            
+            const farmsInterval = setInterval(() => {
+                currentFarms += 1;
+                farmsCount.textContent = currentFarms;
+                
+                if (currentFarms >= targetFarms) {
+                    clearInterval(farmsInterval);
+                }
+            }, 30);
+        };
+        
+        // Intersection Observer for stats animation
+        const statsSection = document.querySelector('section.bg-green-700');
+        const statItems = document.querySelectorAll('.stat-item');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    statItems.forEach(item => {
+                        item.classList.remove('opacity-0');
+                    });
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        observer.observe(statsSection);
+        
+        // Active navigation link highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 300)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active-nav', 'text-green-600');
+                link.classList.add('text-gray-600');
+                
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active-nav', 'text-green-600');
+                    link.classList.remove('text-gray-600');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
